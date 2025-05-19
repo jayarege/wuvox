@@ -157,6 +157,8 @@ function TabNavigator({
             {...props}
             seen={seen}
             unseen={unseen}
+            setSeen={setSeen}
+            setUnseen={setUnseen}
             onAddToSeen={handleAddToSeen}
             onAddToUnseen={handleAddToUnseen}
             genres={genres}
